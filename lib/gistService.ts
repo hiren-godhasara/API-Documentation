@@ -1,3 +1,4 @@
+"use client";
 import axios from "axios";
 import { GITHUB_TOKEN, GITHUB_GIST_ID, GIST_FILE_NAME } from "./utils";
 

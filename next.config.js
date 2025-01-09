@@ -5,6 +5,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  // basePath: '/API Documentation',
 };
 
 module.exports = nextConfig;

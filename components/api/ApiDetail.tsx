@@ -7,8 +7,8 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Textarea } from "@/components/ui/textarea";
 import { Copy, Check, ExternalLink } from "lucide-react";
-import ReactJson from 'react-json-view';
-
+import dynamic from 'next/dynamic';
+const ReactJson = dynamic(() => import('react-json-view'), { ssr: false });
 interface ApiDetailProps {
   api: Api;
   onClose: () => void;

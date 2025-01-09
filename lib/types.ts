@@ -1,3 +1,4 @@
+"use client";
 export interface ApiResponse {
   status: any;
   body: string;
